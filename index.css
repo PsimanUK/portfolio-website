@@ -1,3 +1,14 @@
+body {
+    background-color: cadetblue;
+}
+
+
 h1 {
-    font-size: 72pt;
+    font-size: 60pt;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 14pt;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
