@@ -1,14 +1,39 @@
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
 body {
     background-color: cadetblue;
+}
+
+nav {
+    float: left;
+    margin-left: 40px;
+    
 }
 
 
 h1 {
     font-size: 60pt;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 p {
     font-size: 14pt;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    width: 95%;
+    max-width: 600px;
+    
+    margin: 50px 25px 50px 25px/* top right bottom left - values */
+}
+
+.project-box {
+                display: inline-block;
+                width: 200px;
+                height: 100px;
+                margin: 1em;
 }
